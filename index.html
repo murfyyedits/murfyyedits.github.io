@@ -76,7 +76,15 @@
           <source src=".assets//music/song.mp3" type="audio/mpeg"> 
       </audio>
 
-
+<script type="2a6cba4899ef425f1307262d-text/javascript">
+        // Zac's custom random background //
+        getsetbg();
+        function getsetbg() {
+            var imageUrls = ["./assets/bg1.gif", "./assets/bg2.gif", "./assets/bg3.gif","./assets/bg4.gif", "./assets/bg5.gif"]
+            var dqpzo = Math.floor(Math.random()*imageUrls.length);
+            $("html, body").css("background-image", "url(" + imageUrls[dqpzo] + ")");
+        }
+    </script>
 </body>
 
 <head>
