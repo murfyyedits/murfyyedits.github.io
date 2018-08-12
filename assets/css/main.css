@@ -21,7 +21,7 @@ html, body, div, span, applet, object, iframe, h1, h3, h4, h5, h6, p, blockquote
 }
 
 body {
-	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/background.gif");
+	background: url("");
 	background-size: cover;
 	background-position: center;
 	height: 100%
