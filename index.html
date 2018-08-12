@@ -72,21 +72,20 @@
    <script src='assets/js/main.js'></script>
    <script src='assets/js/demo.js'></script>
 
-   <audio autoplay="" loop="" id="player">
-</audio>
+<audio autoplay loop id="backgroundMusic"> 
+          <source src=".assets//music/song.mp3" type="audio/mpeg"> 
+      </audio>
 
 
 </body>
 
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <script language="JavaScript">
-    function scrlsts() {
-        var randNumber = (Math.floor(Math.random() * Math.floor(2)));
-        var sourceDir = "./assets/music/3.mp3";
-        document.getElementById("player").src = sourceDir;
-        document.getElementById("player").volume = 0.2;
-    }
+<script> 
+    var audio = document.getElementById('./assets/music/song.mp3'); //Background music
+    audio.volume = 0.20;
+    audio.play();
+</script>
        
       //////////F12 disable code////////////////////////
           document.onkeypress = function (event) {
